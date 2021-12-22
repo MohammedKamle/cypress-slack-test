@@ -10,6 +10,8 @@
   "trashAssetsBeforeRuns": true,
   "chromeWebSecurity": false,
   "reporter": "junit",
+  "viewportWidth": 550,
+  "viewportHeight": 750,
   "reporterOptions": {
     "toConsole": true
   }

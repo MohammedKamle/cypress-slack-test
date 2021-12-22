@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc30d947-79b2-4a4f-a227-7f110f3ea6f5" name="Default Changelist" comment="" />
+    <list default="true" id="bc30d947-79b2-4a4f-a227-7f110f3ea6f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.qa.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.qa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/sample.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/sample.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/build_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/build_results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/usage.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/usage.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -16,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,7 +56,12 @@
       <workItem from="1607424186878" duration="808000" />
       <workItem from="1607435140926" duration="893000" />
       <workItem from="1607436957457" duration="1063000" />
-      <workItem from="1607438766709" duration="101000" />
+      <workItem from="1607438766709" duration="353000" />
+      <workItem from="1608029027434" duration="619000" />
+      <workItem from="1608101116555" duration="1281000" />
+      <workItem from="1610530810634" duration="2627000" />
+      <workItem from="1612956271989" duration="496000" />
+      <workItem from="1613026837797" duration="1206000" />
     </task>
     <servers />
   </component>

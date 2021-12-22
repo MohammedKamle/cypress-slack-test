@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.3839999999999995" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-03-23T04:51:43" tests="0" file="cypress/integration/sample.spec.ts" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Sample Cypress setup" timestamp="2021-03-23T04:51:43" tests="2" failures="0" time="7.3839999999999995">
+    <testcase name="Sample Cypress setup should go to Google using a command" time="1.042" classname="should go to Google using a command">
+    </testcase>
+    <testcase name="Sample Cypress setup should go to Google directly" time="6.342" classname="should go to Google directly">
+    </testcase>
+  </testsuite>
+</testsuites>

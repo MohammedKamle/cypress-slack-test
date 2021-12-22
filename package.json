@@ -6,20 +6,26 @@
   "scripts": {
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
-    "lint": "npx eslint --ext .ts,.js ."
+    "lint": "npx eslint --ext .ts,.js .",
+    "test": "browserstack-cypress run --sync --reporter mochawesome",
+    "test-percy": "percy exec -- browserstack-cypress run --sync",
+    "report": "browserstack-cypress generate-report c7a8b6428f2f2262246495cc47f2fe21055986be"
   },
   "devDependencies": {
-    "cypress": "4.12.0",
-    "typescript": "4.1.2",
-    "webpack": "4.41.2",
+    "@cypress/webpack-preprocessor": "^5.10.0",
     "@nrwl/cypress": "8.2.0",
-    "ts-loader": "^8.0.7",
-    "@cypress/webpack-preprocessor": "^5.4.8",
-    "@types/node": "8.9.4",
+    "@percy/cli": "^1.0.0-beta.71",
     "@types/chance": "1.1.0",
-    "chance": "^1.1.7"
+    "@types/node": "8.9.4",
+    "chance": "^1.1.8",
+    "cypress": "4.12.0",
+    "mochawesome": "^7.0.1",
+    "ts-loader": "^8.0.7",
+    "typescript": "4.1.2",
+    "webpack": "4.41.2"
   },
   "dependencies": {
-    "browserstack-cypress-cli": "^1.6.0"
+    "@percy/cypress": "^3.1.1",
+    "browserstack-cypress-cli": "^1.11.0"
   }
 }
